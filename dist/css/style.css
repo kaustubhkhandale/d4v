@@ -1459,7 +1459,48 @@ label {
 	text-align: left;
 	padding: 60px 0;
 }
+.why-choose-us {
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+	padding: 60px 0px 10px 0px;
+	background: rgba(224, 242, 241, 40%);
+}
+.why-choose-us-featurelist {
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+	padding: 10px 0px 60px 0px;
+}
+.featureListBox {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.featureListBox .box {
+	padding: 10px 40px 10px 0;
+}
+.featureListBox .box h6 {
+	font-size: 20px;
+}
+.featureListBox .box p {
+	font-size: 0.8rem;
+}
 
+.divider {
+	height: 4px;
+	width: 250px;
+	background: linear-gradient(45deg, #0f8241, transparent);
+}
+.why-choose-us-featurelist .section-square {
+	position: absolute;
+	top: calc(100% - 440px);
+	right: 0 !important;
+	height: 240px;
+	width: 44%;
+	background: #f6f8fa;
+}
 .pricing {
 	position: relative;
 	overflow: hidden;
@@ -1498,8 +1539,8 @@ label {
 
 .pricing-table {
 	padding: 12px;
-	width: 344px;
-	max-width: 344px;
+	width: 700px;
+	max-width: 100%;
 	flex-grow: 1;
 }
 
@@ -1526,6 +1567,7 @@ label {
 	left: 0;
 	box-shadow: 0 16px 48px #e2e8ed;
 	mix-blend-mode: multiply;
+	border-radius: 20px;
 }
 
 @supports (-ms-ime-align: auto) {
@@ -1536,17 +1578,7 @@ label {
 
 .pricing-table-header {
 	position: relative;
-}
-
-.pricing-table-header::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	display: block;
-	height: 1px;
-	background: #e2e8ed;
+	border-bottom: 1px solid #ccc;
 }
 
 .pricing-table-title {
@@ -1587,6 +1619,14 @@ label {
 
 	.pricing .section-title {
 		margin-bottom: 64px;
+	}
+	.featureListBox {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+	}
+	.featureListBox .box {
+		padding: 10px 10px 10px 0;
 	}
 }
 
