@@ -3,6 +3,7 @@ html {
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -147,6 +148,7 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
 	-webkit-appearance: button;
+	appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -199,6 +201,7 @@ textarea {
 
 [type="search"] {
 	-webkit-appearance: textfield;
+	appearance: textfield;
 	outline-offset: -2px;
 }
 
@@ -1230,9 +1233,6 @@ label {
 	box-shadow: 0 8px 16px rgba(52, 9, 20, 0.25);
 }
 
-.button-primary.button-shadow::before {
-}
-
 .button-primary.button-shadow:hover::before {
 	box-shadow: 0 8px 16px rgba(52, 9, 20, 0.25);
 }
@@ -1451,6 +1451,36 @@ label {
 	.features .section-title {
 		margin-bottom: 56px;
 	}
+	.pricingPlan .pricingContent {
+		width: 100%;
+	}
+
+	.pricingPlan {
+		background-image: url(../../src/Images/Pricingplans-rafiki.svg);
+		background-repeat: no-repeat;
+		background-position: 90%;
+		background-size: contain;
+	}
+	.pricingPlan .pricingContent {
+		width: 50%;
+		text-align: justify;
+	}
+	.pricingCard {
+		border: 1px solid #ccc;
+		padding: 20px;
+		width: 350px;
+		max-width: 100%;
+		border-radius: 20px;
+	}
+	.pill {
+		padding: 4px 12px;
+		background-color: #1f2b35;
+		color: #fff;
+		border-radius: 40px;
+		width: fit-content;
+		font-size: 16px;
+		font-weight: 300;
+	}
 }
 
 .intro {
@@ -1492,6 +1522,7 @@ label {
 	height: 4px;
 	width: 250px;
 	background: linear-gradient(45deg, #0f8241, transparent);
+	margin: 20px 0;
 }
 .why-choose-us-featurelist .section-square {
 	position: absolute;
@@ -1504,6 +1535,9 @@ label {
 .pricing {
 	position: relative;
 	overflow: hidden;
+}
+.d-none {
+	display: none;
 }
 
 .pricing::before {
