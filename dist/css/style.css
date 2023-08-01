@@ -1606,15 +1606,20 @@ label {
 .pricing-table-cta {
 	align-self: flex-end;
 }
-
+.text-white {
+	color: #fff;
+}
+.text-light {
+	font-weight: 300;
+}
 @media (min-width: 641px) {
 	.pricing .section-square {
 		position: absolute;
-		top: calc(100% - 440px);
+		top: calc(100% - 600px);
 		right: 0;
-		height: 240px;
-		width: 44%;
-		background: #f6f8fa;
+		height: 440px;
+		width: 64%;
+		background: linear-gradient(45deg, rgb(145, 214, 191), transparent);
 	}
 
 	.pricing .section-title {
