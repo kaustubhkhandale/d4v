@@ -1293,7 +1293,20 @@ label {
 	padding-top: 40px;
 	background: linear-gradient(89deg, #39814f, #b1db8f);
 }
-
+.social-media a {
+	margin-right: 10px;
+	text-decoration: none;
+}
+.social-media a .fa-square-facebook {
+	color: #0081f6;
+	font-size: 1rem;
+}
+.social-media a .fa-square-instagram {
+	font-size: 1rem;
+	background: -webkit-linear-gradient(-60deg, #405de6, #fd1d1d, #fcaf45);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 /* .hero::before {
     content: '';
     position: absolute;
@@ -1764,11 +1777,12 @@ main {
 	margin-bottom: 24px;
 }
 
-.footer-links li + li,
-.footer-social-links li + li {
+.footer-links li + li {
 	margin-left: 16px;
 }
-
+.footer-social-links li + li {
+	margin-left: 0px;
+}
 .footer-social-links li {
 	display: inline-flex;
 }
