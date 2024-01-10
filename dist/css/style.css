@@ -1469,9 +1469,9 @@ label {
 	}
 
 	.pricingPlan {
-		background-image: url(../../src/Images/Pricingplans-rafiki.svg);
+		background-image: url(../../src/Images/sungrahak_premium_plan.jpg);
 		background-repeat: no-repeat;
-		background-position: 90%;
+		background-position: right -61px;
 		background-size: contain;
 	}
 	.pricingPlan .pricingContent {
@@ -1484,7 +1484,7 @@ label {
 		width: 350px;
 		max-width: 100%;
 		border-radius: 20px;
-		background: rgba(255, 255, 255, 0.74);
+		background: rgba(255, 255, 255, 0.94);
 	}
 	.pill {
 		padding: 4px 12px;
