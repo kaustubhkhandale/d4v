@@ -24,7 +24,15 @@ h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
 }
-
+header .small {
+	font-size: 10px;
+	color: #696c69;
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+header .small span {
+	font-weight: 700;
+}
 figcaption,
 figure,
 main {
