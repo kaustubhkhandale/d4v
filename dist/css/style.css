@@ -1298,7 +1298,7 @@ label {
 .hero {
 	position: relative;
 	text-align: center;
-	padding-top: 40px;
+	/* padding-top: 40px; */
 	background: linear-gradient(89deg, #39814f, #b1db8f);
 }
 .social-media a {
