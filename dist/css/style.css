@@ -1524,6 +1524,120 @@ label {
 	color: green;
 }
 
+.whatsAppDiv {
+	background-color: #f6faf7;
+	padding: 8px 15px;
+	font-size: 12px;
+	color: #0daf49;
+	border: 1.5px solid #0daf49;
+	border-radius: 10px;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+}
+.whatsAppText {
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.blurImage {
+	position: absolute;
+	opacity: 0.25;
+	top: -20px;
+	width: 500px;
+}
+
+.appText {
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.appDescription {
+	font-weight: 500;
+	font-size: 16px;
+	width: 450px;
+}
+
+.appButton {
+	display: inline;
+	padding: 15px;
+	background-color: green;
+	border-radius: 10px;
+	font-size: 14px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.planUL {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.planLI {
+	font-size: 17px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.startButton {
+	background-color: green;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.recommendBox {
+	background-color: green;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	width: 180px;
+	padding: 5px 20px;
+	font-weight: 700;
+}
+
+.contactTitle {
+	font-weight: 600;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.contactContent {
+	font-weight: 500;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 25px;
+	text-align: center;
+	color: #898989;
+}
+
+.contactButton {
+	background-color: green;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
 @keyframes shimmer {
 	100% {
 		-webkit-mask-position: left;
