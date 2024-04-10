@@ -701,6 +701,29 @@ label {
 	.headerRows {
 		display: flex;
 	}
+	.blurImage {
+		display: none;
+	}
+	.connectImg {
+		display: none;
+	}
+}
+
+@media (min-width: 450px) {
+	.container,
+	.container-sm {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.headerRows {
+		display: flex;
+	}
+	.blurImage {
+		display: none;
+	}
+	.connectImg {
+		display: none;
+	}
 }
 
 .container {
@@ -1554,6 +1577,7 @@ label {
 	font-size: 25px;
 	margin: 0;
 	padding: 0;
+	margin-top: 30px;
 }
 
 .appDescription {
@@ -1661,6 +1685,14 @@ label {
 @media (min-width: 641px) {
 	.features {
 		position: relative;
+	}
+
+	.blurImage {
+		display: block;
+	}
+
+	.connectImg {
+		display: block;
 	}
 
 	.features .section-square {
