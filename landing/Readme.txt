@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Thanks for downloading this website template!
 
 Template Name: QuickStart
 Template URL: https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/
